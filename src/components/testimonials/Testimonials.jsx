@@ -7,9 +7,10 @@ const testimonials = [
   { text: 'O suporte é excelente...', rating: 5 },
 ];
 
-const Testimonials = () => (
+export default function  Testimonials  () {
+  return(
   <section className="testimonials">
-    <h2>Depoimentos de nossos clientes</h2>
+    <h2>Depoimentos de <br />nossos clientes</h2>
     <div className="testimonials__list">
       {testimonials.map((item, index) => (
         <div key={index} className="testimonial-card">
@@ -19,6 +20,5 @@ const Testimonials = () => (
       ))}
     </div>
   </section>
-);
-
-export default Testimonials;
+  )
+}

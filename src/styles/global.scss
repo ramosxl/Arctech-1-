@@ -12,10 +12,10 @@ code {
     monospace;
 }
 
+@import '../components/foco/focus.scss';
 @import '../components/header/Header.scss';
 @import '../components/hero-section/HeroSection.scss';
 @import '../components/cases-section/CasesSection.scss';
 @import '../components/testimonials/Testimonials.scss';
-@import '../components/how-it-works/HowItWorks.scss';
 @import '../components/contact-form/ContactForm.scss';
 @import '../components/footer/Footer.scss';

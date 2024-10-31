@@ -1,0 +1,39 @@
+.processes {
+  padding: 4rem;
+  background-color: #1E274E;
+
+  h1,
+  p {
+    width: 50%;
+    color: #fff;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 28px;
+  }
+
+  button {
+    padding: 10px 20px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px #ffffff5b;
+    cursor: pointer;
+    transition: .4s;
+    background-color: #1E274E;
+    outline: 2px solid #fff;
+
+    &:hover {
+      color: #1E274E;
+      background-color: #fff;
+      box-shadow: 0px 0px 14px #ffffff5b;
+    }
+
+  }
+}

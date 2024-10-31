@@ -1,7 +1,8 @@
 import React from 'react';
 import './Footer.scss';
 
-const Footer = () => (
+export default function Footer ()  {
+return(
   <footer className="footer">
     <div className="footer__logo">ArcTech</div>
     <p>Copyright © 2024 - ArcTech</p>
@@ -11,6 +12,6 @@ const Footer = () => (
       <a href="#">LinkedIn</a>
     </div>
   </footer>
-);
+  )
+}
 
-export default Footer;

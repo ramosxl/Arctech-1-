@@ -1,7 +1,8 @@
 import React from 'react';
 import './ContactForm.scss';
 
-const ContactForm = () => (
+export default function ContactForm  () {
+  return(
   <section className="contact-form">
     <h2>Entre em Contato</h2>
     <form>
@@ -12,6 +13,5 @@ const ContactForm = () => (
       <button type="submit">Enviar</button>
     </form>
   </section>
-);
-
-export default ContactForm;
+  )
+}

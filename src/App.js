@@ -3,8 +3,9 @@ import Header from './components/header/Header';
 import HeroSection from './components/hero-section/HeroSection';
 import CasesSection from './components/cases-section/CasesSection';
 import Testimonials from './components/testimonials/Testimonials';
-import HowItWorks from './components/how-it-works/HowItWorks';
 import Footer from './components/footer/Footer';
+import Processes from './components/processes/Processes';
+import Foco from './components/foco/focus';
 // import ContactForm from './components/contact-form/ContactForm';
 
 function App() {
@@ -12,9 +13,10 @@ function App() {
     <div className="App">
       <Header />
       <HeroSection />
+      <Processes/>
+      <Foco/>
       <CasesSection />
       <Testimonials />
-      <HowItWorks />
       {/* <ContactForm /> */}
       <Footer />
     </div>

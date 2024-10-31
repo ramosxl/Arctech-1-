@@ -1,11 +1,11 @@
 import './LineDivider.scss'
 
-const LineDivider = () => (
+export default function LineDivider  () {
+  return(
   <div className="line-divider">
     <div className='blue'/>
     <div className='red'/>
     <div className='yellow'/>
   </div>
-)
-
-export default LineDivider
+  )
+}

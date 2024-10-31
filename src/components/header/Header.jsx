@@ -1,7 +1,8 @@
 import React from 'react';
 import './Header.scss';
 
-const Header = () => (
+export default function Header ()  {
+  return(
   <header className="header">
     <div className="header__logo">
       <img id='react' src='/images/arc_tech_logo.png' />
@@ -16,9 +17,11 @@ const Header = () => (
         <a href="#projetos">Projetos</a>
         <div className='line' />
       </div>
-      <button className="header__contact">Entre em Contato</button>
+      <button className="header__contact">ENTRE EM CONTATO</button>
     </nav>
   </header>
-);
+  )
+}
 
-export default Header;
+
+
