@@ -68,3 +68,14 @@
     }
   }
 }
+
+@media (max-width: 600px){
+  .header {
+    display: flex;
+    justify-content: center;
+
+    &__nav{
+      display: none;
+    }
+  }
+}
