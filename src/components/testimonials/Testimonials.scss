@@ -1,0 +1,35 @@
+.testimonials {
+  padding: 60px 20px;
+  background: #0f0e17;
+  color: #ffffff;
+  text-align: center;
+
+  h2 {
+    font-size: 28px;
+    color: #00d1ff;
+    margin-bottom: 30px;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .testimonial-card {
+    background: #1a1a2e;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: left;
+
+    p:first-child {
+      font-size: 16px;
+    }
+
+    p:last-child {
+      font-size: 18px;
+      color: #ffd700;
+      margin-top: 10px;
+    }
+  }
+}

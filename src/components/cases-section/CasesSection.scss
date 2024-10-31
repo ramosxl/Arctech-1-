@@ -1,0 +1,49 @@
+.cases-section {
+  padding: 60px 20px;
+  background: #1a1a2e;
+  color: #ffffff;
+  text-align: center;
+
+  h2 {
+    font-size: 28px;
+    margin-bottom: 40px;
+    color: #00d1ff;
+  }
+
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+  }
+
+  .case-card {
+    background: #2a2a3a;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+
+    h3 {
+      font-size: 18px;
+      color: #00d1ff;
+    }
+
+    p {
+      font-size: 16px;
+      margin-top: 10px;
+    }
+
+    button {
+      margin-top: 15px;
+      padding: 8px 20px;
+      background: #00d1ff;
+      color: #ffffff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: #00a0cc;
+      }
+    }
+  }
+}
