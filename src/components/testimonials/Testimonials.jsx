@@ -11,6 +11,7 @@ export default function  Testimonials  () {
   return(
   <section className="testimonials">
     <h2>Depoimentos de <br />nossos clientes</h2>
+    
     <div className="testimonials__list">
       {testimonials.map((item, index) => (
         <div key={index} className="testimonial-card">
