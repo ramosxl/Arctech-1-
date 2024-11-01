@@ -4,7 +4,20 @@
   color: #ffffff;
   margin-top: 0%;
 
+
+  p1{
+    margin-top: 4%;
+    margin-bottom: 0%;
   
+  }
+
+  hr{
+  margin-top: 9% ;
+  width: 90%;
+  
+
+  }
+
   h2 {
     width: 20%;
     color: #fff;
@@ -12,13 +25,15 @@
 
   }
 
-  .p {
+  p {
     font-size: 28px;
-    font-weight: 400;
+    font-weight: 40px;
     line-height: 1.4;
     letter-spacing: 1px;
     text-align: center;
     color: #ffff;
+    margin-top: 10%;
+    margin-bottom: 0%;
 
     #blue {
       color: #019CE5;
@@ -34,44 +49,54 @@
   }
 
   h2 {
-    font-size: 28px;
-    margin-bottom: 20px;
+    font-size: 40px;
+    margin-bottom: 25px;
+    margin-top: 0%;
     color: #ffffff;
+
   }
 
   &__grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 20px;
+    gap: 43px;
+
   }
 
   .case-card {
-    background: #2a2a3a;
+    background: #26305B;
     padding: 20px;
-    border-radius: 8px;
+    border-radius: 16px;
     text-align: center;
+    box-shadow: 3px 8px 10px #000;
+    width: 200px;
+    gap: 45px;
+
 
     h3 {
       font-size: 18px;
-      color: #00d1ff;
+      color: #ffffff;
+
     }
 
     p {
       font-size: 16px;
-      margin-top: 10px;
+      margin-top:px;
     }
 
     button {
-      margin-top: 15px;
+      margin-top: 14px;
       padding: 8px 20px;
-      background: #00d1ff;
+      background: #26305B;
       color: #ffffff;
-      border: none;
-      border-radius: 5px;
+      border: solid 1px;
+      border-radius: 16px;
+      width: 58%;
       cursor: pointer;
+      box-shadow: 1px 1px 8px #ffffff;
 
       &:hover {
-        background-color: #00a0cc;
+        background-color: #abb1cc;
       }
     }
   }

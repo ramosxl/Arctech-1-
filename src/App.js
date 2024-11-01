@@ -6,6 +6,7 @@ import Testimonials from './components/testimonials/Testimonials';
 import Footer from './components/footer/Footer';
 import Processes from './components/processes/Processes';
 import Foco from './components/foco/focus';
+import Speciality from './components/Speciality/desenvol'
 // import ContactForm from './components/contact-form/ContactForm';
 
 function App() {
