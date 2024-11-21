@@ -9,7 +9,11 @@ export default function Desenvolvimento () {
     <br />
         
         <p className='p2'>Nossos processos prezam pela objetividade e foco em <br /> resultados incríveis, combinando análises precisas, estratégias  <br />eficazes e treinamento contínuo para garantir excelência em <br /> cada projeto.</p>
+        <br />
+        <br />
+        <hr />
     </div>
+    
    
     
     )

@@ -23,10 +23,6 @@ export default function  Testimonials  () {
         </div>
       ))}
     </div>
-    <br />
-    <br />
-    <br />
-    <hr />
 
   </section>
   )

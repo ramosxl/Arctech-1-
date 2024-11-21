@@ -6,11 +6,13 @@ function Apps() {
     <div className="App">
     
       <main className="content">
-        <h2>Como funcionam nossos processos?</h2>
+        <h2>Como funcionam <br /> nossos processos?</h2>
         <div className="cards">
           <Card
             title="Sites Responsivos"
-            description="Sites que se adaptam perfeitamente ao tamanho da tela de computador, celular ou tablet."
+            description="Sites que se adaptam 
+            perfeitamente ao tamanho
+             da tela de computador, celular ou tablet."
           />
           <Card
             title="User Experience"

@@ -22,6 +22,8 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1.5rem;
   margin-top: 2rem;
+  align-items: center;
+
 }
 
 .card {
@@ -29,7 +31,10 @@ body {
   color: #26305B;
   border-radius: 8px;
   padding: 1.5rem;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 6px 4px 6px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  width: 250px;
+  
   
 
   h3 {
@@ -39,10 +44,10 @@ body {
 
   p {
     font-size: 1rem;
-    font-weight: 40px;
+    font-weight: 28px;
     line-height: 1.4;
     letter-spacing: 1px;
-    text-align: center;
+    text-align: left;
     color: #ffff;
     margin-top: 10%;
     margin-bottom: 0%;
@@ -53,6 +58,12 @@ h2{
     font-size: 28px;
     color: #ffffff;
     margin-top: 20px;
-    text-align: center;
+    text-align: left;
     margin-bottom: 10%;
+    margin-top: 0%;
+}
+
+
+title{
+    font-size: 48px;
 }
