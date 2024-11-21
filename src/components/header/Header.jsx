@@ -14,7 +14,7 @@ export default function Header ()  {
         <div className='line' />
       </div>
       <div className='nav-content'>
-        <a href="#projetos">Projetos</a>
+        <a href="/">Projetos</a>
         <div className='line' />
       </div>
       <button className="header__contact">ENTRE EM CONTATO</button>

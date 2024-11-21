@@ -8,6 +8,7 @@ import Testimonials from './components/depoimentos/depoiments';
 import Desenvolvimento from './components/especialidade/speciality';
 import Apps from './components/card/card';
 
+
 function App() {
   return (
     <div className="App">
@@ -20,6 +21,7 @@ function App() {
       {/* <ContactForm /> */}
       <Apps />
       <Footer />
+      
     </div>
   );
 }

@@ -8,13 +8,12 @@ return(
       <br />
     (11) 98765-4321</div>
     <div className="footer__logo">
-    <img id='written' src='/images/arc_tech_logo.png' />
     <img id='written' src='/images/arc_tech_logo2.png' />
 
     </div>
     <div className="footer__social">
       <a href="">Facebook</a>
-      <a href="">Instagram</a>
+      <a href="https://www.instagram.com/arctech___/profilecard/?igsh=OHdieHU5MW85YXJ6">Instagram</a>
       <a href="">LinkedIn</a>
     </div>
     
