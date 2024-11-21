@@ -6,7 +6,7 @@ import Processes from './components/processes/Processes';
 import Foco from './components/foco/focus';
 import Testimonials from './components/depoimentos/depoiments';
 import Desenvolvimento from './components/especialidade/speciality';
-
+import Apps from './components/card/card';
 
 function App() {
   return (
@@ -18,6 +18,7 @@ function App() {
       <Testimonials/>
       <Desenvolvimento/>
       {/* <ContactForm /> */}
+      <Apps />
       <Footer />
     </div>
   );

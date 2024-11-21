@@ -1,14 +1,12 @@
 import React from "react";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import "./styles/card.scss";
+import "./card.scss";
 
 function Apps() {
   return (
     <div className="App">
-      <Header />
+    
       <main className="content">
-        <h1>Como funcionam nossos processos?</h1>
+        <h2>Como funcionam nossos processos?</h2>
         <div className="cards">
           <Card
             title="Sites Responsivos"
@@ -36,10 +34,11 @@ function Apps() {
           />
         </div>
       </main>
-      <Footer />
+    
     </div>
   );
 }
+export default Apps;
 
 function Card({ title, description }) {
   return (
