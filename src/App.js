@@ -1,13 +1,12 @@
 import React from 'react';
 import Header from './components/header/Header';
 import HeroSection from './components/hero-section/HeroSection';
-import CasesSection from './components/cases-section/CasesSection';
-import Testimonials from './components/testimonials/Testimonials';
 import Footer from './components/footer/Footer';
 import Processes from './components/processes/Processes';
 import Foco from './components/foco/focus';
-import Speciality from './components/Speciality/desenvol'
-// import ContactForm from './components/contact-form/ContactForm';
+import Testimonials from './components/depoimentos/depoiments';
+import Desenvolvimento from './components/especialidade/speciality';
+
 
 function App() {
   return (
@@ -16,8 +15,8 @@ function App() {
       <HeroSection />
       <Processes/>
       <Foco/>
-      <CasesSection />
-      <Testimonials />
+      <Testimonials/>
+      <Desenvolvimento/>
       {/* <ContactForm /> */}
       <Footer />
     </div>

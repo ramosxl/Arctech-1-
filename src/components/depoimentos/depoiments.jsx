@@ -1,5 +1,5 @@
 import React from 'react';
-import './Testimonials.scss';
+import './depoiments.scss';
 
 const testimonials = [
   { text: 'ArcTech transformou meu negócio...', rating: 5 },
