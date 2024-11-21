@@ -10,8 +10,7 @@ const testimonials = [
 export default function  Testimonials  () {
   return(
   <section className="testimonials">
-    <h2>Depoimentos de <br />nossos clientes</h2>
-    <br />
+    <h2>Depoimentos de nossos clientes</h2>
     <br />
     <br />
     <div className="testimonials__list">

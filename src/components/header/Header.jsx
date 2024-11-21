@@ -10,7 +10,7 @@ export default function Header ()  {
     </div>
     <nav className="header__nav">
       <div className='nav-content'>
-        <a href="#sobre">Sobre</a>
+        <a href="">Sobre</a>
         <div className='line' />
       </div>
       <div className='nav-content'>

@@ -3,19 +3,22 @@
   background:  #1E274E;;
   color: #ffffff;
   text-align: center;
+  box-shadow: 5px 10px #000;
 
   &__logo {
     font-size: 24px;
     font-weight: bold;
-    color: #00d1ff;
     margin-bottom: 10px;
     text-align: left;
+    color: #ffffff;
+    display: flex;
+    
   }
 
   p {
     margin-top: 10px;
     font-size: 14px;
-    color: #aaaaaa;
+    color: #ffebeb;
     
   }
 
@@ -28,15 +31,14 @@
 
     a {
       color: #ffffff;
-      font-size: 18px;
+      font-size: 19px;
       text-decoration: none;
       text-align: left;
       
 
-      
-
+    
       &:hover {
-        color: #00d1ff;
+        color: #ff2d2d;
       }
     }
   }  

@@ -1,24 +1,25 @@
-.Desenvolvimento{
+.Desenvolvimento {
     background-color: #1E274E;
+    background-image: url('../../../public/images/arc-mockup.png');
     background-position: center;
+    
+    background-repeat: no-repeat; 
     padding: 14% 20px;
 }
 
-.Image{
-    width: 20%;
-    text-align: center;
-}
+
 
 .p{
-    font-size: 28px;
+    font-size: 40px;
     font-weight: 40px;
     line-height: 1.4;
     padding-top: 0%;
 }
 
-.dois{
+.p2{
     font-size: 20px;
     font-weight: 40px;
     line-height: 1.4;
+    margin-top: 80px;
     text-align: right;
 }
