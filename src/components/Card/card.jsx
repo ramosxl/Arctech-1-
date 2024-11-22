@@ -4,49 +4,35 @@ import "./card.scss";
 function Apps() {
   return (
     <div className="App">
-    
-      <main className="content">
-        <h2>Como funcionam <br /> nossos processos?</h2>
-        <div className="cards">
-          <Card
-            title="Sites Responsivos"
-            description="Sites que se adaptam 
-            perfeitamente ao tamanho
-             da tela de computador, celular ou tablet."
-          />
-          <Card
-            title="User Experience"
-            description="Estratégias de UX/UI focadas em otimizar a navegação e melhorar a usabilidade, entregando qualidade."
-          />
-          <Card
-            title="Layout Personalizado"
-            description="O layout exclusivo representa sua marca com cores, fontes e design únicos para sua empresa."
-          />
-          <Card
-            title="Suporte Contínuo"
-            description="Conte com um time de suporte disponível para resolver tudo o que precisar, quando precisar."
-          />
-          <Card
-            title="Pronto para o Google"
-            description="Desenvolvemos sites otimizados para mecanismos de busca como Google."
-          />
-          <Card
-            title="Personalização Total"
-            description="Desenvolvemos tudo sob medida para atender às suas necessidades exclusivas."
-          />
+      <h2>Como funcionam <br /> nossos processos?</h2>
+      <div className="app-cards">
+        <div className="app-card">
+          <h3>Sites Responsivos</h3>
+          <p>Sites que se adaptam perfeitamente ao tamanho da tela de computador, celular ou tablet.</p>
         </div>
-      </main>
-    
+        <div className="app-card">
+          <h3>User Experience</h3>
+          <p>Estratégias de UX/UI focadas em otimizar a navegação e melhorar a usabilidade, entregando qualidade.</p>
+        </div>
+        <div className="app-card">
+          <h3>Layout Personalizado</h3>
+          <p>O layout exclusivo representa sua marca com cores, fontes e design únicos para sua empresa.</p>
+        </div>
+        <div className="app-card">
+          <h3>Suporte Contínuo</h3>
+          <p>Conte com um time de suporte disponível para resolver tudo o que precisar, quando precisar.</p>
+        </div>
+        <div className="app-card">
+          <h3>Pronto para o Google</h3>
+          <p>Desenvolvemos sites otimizados para mecanismos de busca como Google.</p>
+        </div>
+        <div className="app-card">
+          <h3>Personalização Total</h3>
+          <p>Desenvolvemos tudo sob medida para atender às suas necessidades exclusivas.</p>
+        </div>
+      </div>
     </div>
   );
 }
-export default Apps;
 
-function Card({ title, description }) {
-  return (
-    <div className="card">
-      <h3>{title}</h3>
-      <p>{description}</p>
-    </div>
-  );
-}
+export default Apps;
